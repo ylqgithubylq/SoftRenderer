@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Foundation">
+      <UniqueIdentifier>{b1501f5e-7d3e-4e59-8d5c-217331b0fb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{66df463e-734a-459f-b8be-2f6bed265401}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{65dd1856-e246-47f2-b4e5-2dac8cf285b0}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{7c9f8eb9-5839-4b9c-8dc1-99177b10682c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{4156221c-641e-40e1-b215-7354ad538cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{3b19399f-0501-4389-8299-7ee81fcad93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Detail">
+      <UniqueIdentifier>{cc37ba9a-14e1-432b-a092-d79238dcff87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrecompiledHeaderHost.cpp" />
+    <ClCompile Include="Component.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedTaskPool.cpp">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceCounter.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryMath.cpp">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="DefferredPipeline.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardPipeline.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryUtility.cpp">
+      <Filter>Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryLayout.cpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Declare.hpp" />
+    <ClInclude Include="Header.hpp" />
+    <ClInclude Include="Component.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicType.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="Setting.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.hpp">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadedTaskPool.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceCounter.hpp">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryMath.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="DefferredPipeline.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardPipeline.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineDetail.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerDetail.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureStorage.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="All.hpp" />
+    <ClInclude Include="GeometryUtility.hpp">
+      <Filter>Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryLayout.hpp">
+      <Filter>Renderer\Detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

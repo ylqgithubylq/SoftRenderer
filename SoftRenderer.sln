@@ -1,0 +1,182 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftRenderer", "SoftRenderer\SoftRenderer.vcxproj", "{9433673D-7F1D-4F7D-B5B3-06AC00E25C85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A087E306-AEDA-4224-9512-EC527C5E02A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D11F6EC6-D5FF-499A-B629-1222983760FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crytek-sponza", "crytek-sponza", "{F1C84CB0-02DD-4B9E-A586-42A4D55E5078}"
+	ProjectSection(SolutionItems) = preProject
+		Data\crytek-sponza\banner.mtl = Data\crytek-sponza\banner.mtl
+		Data\crytek-sponza\banner.obj = Data\crytek-sponza\banner.obj
+		Data\crytek-sponza\copyright.txt = Data\crytek-sponza\copyright.txt
+		Data\crytek-sponza\screenshot.jpg = Data\crytek-sponza\screenshot.jpg
+		Data\crytek-sponza\sponza.am.any = Data\crytek-sponza\sponza.am.any
+		Data\crytek-sponza\sponza.mtl = Data\crytek-sponza\sponza.mtl
+		Data\crytek-sponza\sponza.obj = Data\crytek-sponza\sponza.obj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "textures", "textures", "{4326EE60-E8E3-4572-933C-A5B031D52AB5}"
+	ProjectSection(SolutionItems) = preProject
+		Data\crytek-sponza\textures\background.tga = Data\crytek-sponza\textures\background.tga
+		Data\crytek-sponza\textures\background_bump.png = Data\crytek-sponza\textures\background_bump.png
+		Data\crytek-sponza\textures\backgroundBGR.tga = Data\crytek-sponza\textures\backgroundBGR.tga
+		Data\crytek-sponza\textures\chain_texture.tga = Data\crytek-sponza\textures\chain_texture.tga
+		Data\crytek-sponza\textures\chain_texture_bump.png = Data\crytek-sponza\textures\chain_texture_bump.png
+		Data\crytek-sponza\textures\chain_texture_mask.png = Data\crytek-sponza\textures\chain_texture_mask.png
+		Data\crytek-sponza\textures\gi_flag.tga = Data\crytek-sponza\textures\gi_flag.tga
+		Data\crytek-sponza\textures\lion.tga = Data\crytek-sponza\textures\lion.tga
+		Data\crytek-sponza\textures\lion2_bump.png = Data\crytek-sponza\textures\lion2_bump.png
+		Data\crytek-sponza\textures\lion_bump.png = Data\crytek-sponza\textures\lion_bump.png
+		Data\crytek-sponza\textures\spnza_bricks_a_bump.png = Data\crytek-sponza\textures\spnza_bricks_a_bump.png
+		Data\crytek-sponza\textures\spnza_bricks_a_diff.tga = Data\crytek-sponza\textures\spnza_bricks_a_diff.tga
+		Data\crytek-sponza\textures\spnza_bricks_a_spec.tga = Data\crytek-sponza\textures\spnza_bricks_a_spec.tga
+		Data\crytek-sponza\textures\sponza_arch_bump.png = Data\crytek-sponza\textures\sponza_arch_bump.png
+		Data\crytek-sponza\textures\sponza_arch_diff.tga = Data\crytek-sponza\textures\sponza_arch_diff.tga
+		Data\crytek-sponza\textures\sponza_arch_spec.tga = Data\crytek-sponza\textures\sponza_arch_spec.tga
+		Data\crytek-sponza\textures\sponza_ceiling_a_diff.tga = Data\crytek-sponza\textures\sponza_ceiling_a_diff.tga
+		Data\crytek-sponza\textures\sponza_ceiling_a_spec.tga = Data\crytek-sponza\textures\sponza_ceiling_a_spec.tga
+		Data\crytek-sponza\textures\sponza_column_a_bump.png = Data\crytek-sponza\textures\sponza_column_a_bump.png
+		Data\crytek-sponza\textures\sponza_column_a_diff.tga = Data\crytek-sponza\textures\sponza_column_a_diff.tga
+		Data\crytek-sponza\textures\sponza_column_a_spec.tga = Data\crytek-sponza\textures\sponza_column_a_spec.tga
+		Data\crytek-sponza\textures\sponza_column_b_bump.png = Data\crytek-sponza\textures\sponza_column_b_bump.png
+		Data\crytek-sponza\textures\sponza_column_b_diff.tga = Data\crytek-sponza\textures\sponza_column_b_diff.tga
+		Data\crytek-sponza\textures\sponza_column_b_spec.tga = Data\crytek-sponza\textures\sponza_column_b_spec.tga
+		Data\crytek-sponza\textures\sponza_column_c_bump.png = Data\crytek-sponza\textures\sponza_column_c_bump.png
+		Data\crytek-sponza\textures\sponza_column_c_diff.tga = Data\crytek-sponza\textures\sponza_column_c_diff.tga
+		Data\crytek-sponza\textures\sponza_column_c_spec.tga = Data\crytek-sponza\textures\sponza_column_c_spec.tga
+		Data\crytek-sponza\textures\sponza_curtain_blue_diff.tga = Data\crytek-sponza\textures\sponza_curtain_blue_diff.tga
+		Data\crytek-sponza\textures\sponza_curtain_diff.tga = Data\crytek-sponza\textures\sponza_curtain_diff.tga
+		Data\crytek-sponza\textures\sponza_curtain_green_diff.tga = Data\crytek-sponza\textures\sponza_curtain_green_diff.tga
+		Data\crytek-sponza\textures\sponza_details_diff.tga = Data\crytek-sponza\textures\sponza_details_diff.tga
+		Data\crytek-sponza\textures\sponza_details_spec.tga = Data\crytek-sponza\textures\sponza_details_spec.tga
+		Data\crytek-sponza\textures\sponza_fabric_blue_diff.tga = Data\crytek-sponza\textures\sponza_fabric_blue_diff.tga
+		Data\crytek-sponza\textures\sponza_fabric_diff.tga = Data\crytek-sponza\textures\sponza_fabric_diff.tga
+		Data\crytek-sponza\textures\sponza_fabric_green_diff.tga = Data\crytek-sponza\textures\sponza_fabric_green_diff.tga
+		Data\crytek-sponza\textures\sponza_fabric_spec.tga = Data\crytek-sponza\textures\sponza_fabric_spec.tga
+		Data\crytek-sponza\textures\sponza_flagpole_diff.tga = Data\crytek-sponza\textures\sponza_flagpole_diff.tga
+		Data\crytek-sponza\textures\sponza_flagpole_spec.tga = Data\crytek-sponza\textures\sponza_flagpole_spec.tga
+		Data\crytek-sponza\textures\sponza_floor_a_diff.tga = Data\crytek-sponza\textures\sponza_floor_a_diff.tga
+		Data\crytek-sponza\textures\sponza_floor_a_spec.tga = Data\crytek-sponza\textures\sponza_floor_a_spec.tga
+		Data\crytek-sponza\textures\sponza_roof_diff.tga = Data\crytek-sponza\textures\sponza_roof_diff.tga
+		Data\crytek-sponza\textures\sponza_thorn_bump.png = Data\crytek-sponza\textures\sponza_thorn_bump.png
+		Data\crytek-sponza\textures\sponza_thorn_diff.tga = Data\crytek-sponza\textures\sponza_thorn_diff.tga
+		Data\crytek-sponza\textures\sponza_thorn_mask.png = Data\crytek-sponza\textures\sponza_thorn_mask.png
+		Data\crytek-sponza\textures\sponza_thorn_spec.tga = Data\crytek-sponza\textures\sponza_thorn_spec.tga
+		Data\crytek-sponza\textures\vase_bump.png = Data\crytek-sponza\textures\vase_bump.png
+		Data\crytek-sponza\textures\vase_dif.tga = Data\crytek-sponza\textures\vase_dif.tga
+		Data\crytek-sponza\textures\vase_hanging.tga = Data\crytek-sponza\textures\vase_hanging.tga
+		Data\crytek-sponza\textures\vase_plant.tga = Data\crytek-sponza\textures\vase_plant.tga
+		Data\crytek-sponza\textures\vase_plant_mask.png = Data\crytek-sponza\textures\vase_plant_mask.png
+		Data\crytek-sponza\textures\vase_plant_spec.tga = Data\crytek-sponza\textures\vase_plant_spec.tga
+		Data\crytek-sponza\textures\vase_round.tga = Data\crytek-sponza\textures\vase_round.tga
+		Data\crytek-sponza\textures\vase_round_bump.png = Data\crytek-sponza\textures\vase_round_bump.png
+		Data\crytek-sponza\textures\vase_round_spec.tga = Data\crytek-sponza\textures\vase_round_spec.tga
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{1823CE25-6156-4066-85E3-685A05C234F8}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\assimp.lib = Dependencies\assimp.lib
+		Dependencies\FreeImage.h = Dependencies\FreeImage.h
+		Dependencies\FreeImage.lib = Dependencies\FreeImage.lib
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assimp", "assimp", "{3A93FAEF-3D8D-466E-9486-DF72B0B60EB6}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\assimp\ai_assert.h = Dependencies\assimp\ai_assert.h
+		Dependencies\assimp\anim.h = Dependencies\assimp\anim.h
+		Dependencies\assimp\camera.h = Dependencies\assimp\camera.h
+		Dependencies\assimp\cexport.h = Dependencies\assimp\cexport.h
+		Dependencies\assimp\cfileio.h = Dependencies\assimp\cfileio.h
+		Dependencies\assimp\cimport.h = Dependencies\assimp\cimport.h
+		Dependencies\assimp\color4.h = Dependencies\assimp\color4.h
+		Dependencies\assimp\color4.inl = Dependencies\assimp\color4.inl
+		Dependencies\assimp\config.h = Dependencies\assimp\config.h
+		Dependencies\assimp\DefaultLogger.hpp = Dependencies\assimp\DefaultLogger.hpp
+		Dependencies\assimp\defs.h = Dependencies\assimp\defs.h
+		Dependencies\assimp\Exporter.hpp = Dependencies\assimp\Exporter.hpp
+		Dependencies\assimp\Importer.hpp = Dependencies\assimp\Importer.hpp
+		Dependencies\assimp\importerdesc.h = Dependencies\assimp\importerdesc.h
+		Dependencies\assimp\IOStream.hpp = Dependencies\assimp\IOStream.hpp
+		Dependencies\assimp\IOSystem.hpp = Dependencies\assimp\IOSystem.hpp
+		Dependencies\assimp\light.h = Dependencies\assimp\light.h
+		Dependencies\assimp\Logger.hpp = Dependencies\assimp\Logger.hpp
+		Dependencies\assimp\LogStream.hpp = Dependencies\assimp\LogStream.hpp
+		Dependencies\assimp\material.h = Dependencies\assimp\material.h
+		Dependencies\assimp\material.inl = Dependencies\assimp\material.inl
+		Dependencies\assimp\matrix3x3.h = Dependencies\assimp\matrix3x3.h
+		Dependencies\assimp\matrix3x3.inl = Dependencies\assimp\matrix3x3.inl
+		Dependencies\assimp\matrix4x4.h = Dependencies\assimp\matrix4x4.h
+		Dependencies\assimp\matrix4x4.inl = Dependencies\assimp\matrix4x4.inl
+		Dependencies\assimp\mesh.h = Dependencies\assimp\mesh.h
+		Dependencies\assimp\metadata.h = Dependencies\assimp\metadata.h
+		Dependencies\assimp\NullLogger.hpp = Dependencies\assimp\NullLogger.hpp
+		Dependencies\assimp\postprocess.h = Dependencies\assimp\postprocess.h
+		Dependencies\assimp\ProgressHandler.hpp = Dependencies\assimp\ProgressHandler.hpp
+		Dependencies\assimp\quaternion.h = Dependencies\assimp\quaternion.h
+		Dependencies\assimp\quaternion.inl = Dependencies\assimp\quaternion.inl
+		Dependencies\assimp\scene.h = Dependencies\assimp\scene.h
+		Dependencies\assimp\texture.h = Dependencies\assimp\texture.h
+		Dependencies\assimp\types.h = Dependencies\assimp\types.h
+		Dependencies\assimp\vector2.h = Dependencies\assimp\vector2.h
+		Dependencies\assimp\vector2.inl = Dependencies\assimp\vector2.inl
+		Dependencies\assimp\vector3.h = Dependencies\assimp\vector3.h
+		Dependencies\assimp\vector3.inl = Dependencies\assimp\vector3.inl
+		Dependencies\assimp\version.h = Dependencies\assimp\version.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compiler", "Compiler", "{68F31D06-7F69-40B4-B0CD-0A63095235BA}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\assimp\Compiler\poppack1.h = Dependencies\assimp\Compiler\poppack1.h
+		Dependencies\assimp\Compiler\pstdint.h = Dependencies\assimp\Compiler\pstdint.h
+		Dependencies\assimp\Compiler\pushpack1.h = Dependencies\assimp\Compiler\pushpack1.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bin", "Bin", "{3D23008F-A65B-4C6A-9444-549D16B4AE6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{9245D5C0-E82F-4083-BC32-AB7F415AA5CD}"
+	ProjectSection(SolutionItems) = preProject
+		Debug\assimp.dll = Debug\assimp.dll
+		Debug\FreeImage.dll = Debug\FreeImage.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{DEF18D75-AE5F-46B8-A45F-F22B51B6774E}"
+	ProjectSection(SolutionItems) = preProject
+		Release\assimp.dll = Release\assimp.dll
+		Release\FreeImage.dll = Release\FreeImage.dll
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RendererShow", "RendererShow\RendererShow.vcxproj", "{154FED5A-3F3D-407E-B2FB-4968F5CDC7E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9433673D-7F1D-4F7D-B5B3-06AC00E25C85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9433673D-7F1D-4F7D-B5B3-06AC00E25C85}.Debug|Win32.Build.0 = Debug|Win32
+		{9433673D-7F1D-4F7D-B5B3-06AC00E25C85}.Release|Win32.ActiveCfg = Release|Win32
+		{9433673D-7F1D-4F7D-B5B3-06AC00E25C85}.Release|Win32.Build.0 = Release|Win32
+		{154FED5A-3F3D-407E-B2FB-4968F5CDC7E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{154FED5A-3F3D-407E-B2FB-4968F5CDC7E7}.Debug|Win32.Build.0 = Debug|Win32
+		{154FED5A-3F3D-407E-B2FB-4968F5CDC7E7}.Release|Win32.ActiveCfg = Release|Win32
+		{154FED5A-3F3D-407E-B2FB-4968F5CDC7E7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1C84CB0-02DD-4B9E-A586-42A4D55E5078} = {D11F6EC6-D5FF-499A-B629-1222983760FB}
+		{4326EE60-E8E3-4572-933C-A5B031D52AB5} = {F1C84CB0-02DD-4B9E-A586-42A4D55E5078}
+		{3A93FAEF-3D8D-466E-9486-DF72B0B60EB6} = {1823CE25-6156-4066-85E3-685A05C234F8}
+		{68F31D06-7F69-40B4-B0CD-0A63095235BA} = {3A93FAEF-3D8D-466E-9486-DF72B0B60EB6}
+		{3D23008F-A65B-4C6A-9444-549D16B4AE6F} = {1823CE25-6156-4066-85E3-685A05C234F8}
+		{9245D5C0-E82F-4083-BC32-AB7F415AA5CD} = {3D23008F-A65B-4C6A-9444-549D16B4AE6F}
+		{DEF18D75-AE5F-46B8-A45F-F22B51B6774E} = {3D23008F-A65B-4C6A-9444-549D16B4AE6F}
+	EndGlobalSection
+EndGlobal
